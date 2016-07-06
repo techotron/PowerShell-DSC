@@ -4,8 +4,9 @@
 #                           for a GUID which already exists for the servername. If it finds one, it will warn you with the file name. If it doesn't find
 #                           one, it will create a new .mof file named after a brand new guid, along with a checksum file.
 
-# TODO: ESnow. 06/07/2016.  I want to introduce a feature that will still create the .mof if found but re-use the GUID. This will override the old file though
+# TODO: ESnow. 06/07/2016. - I want to introduce a feature that will still create the .mof if found but re-use the GUID. This will override the old file though
 #                           so I need to add an archiving feature to keep the old .mof on the filesystem somewhere.
+#                          - Another feature I'd like to introduce is a reference to the DSC Configuration code block so it's not hard coded in this script
 
 # ============================================================= START OF SCRIPT ===================================================================================
 
